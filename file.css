@@ -39,3 +39,33 @@ h3 {
     margin-top: 20px;
     color: #333;
 }
+input[type="radio"] {
+    margin: 8px;
+}
+button {
+    display: block;
+    margin: 25px auto;
+    padding: 12px 25px;
+    background-color: #fb641b;  
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ff9f00;
+}
+h2:last-of-type {
+    margin-top: 30px;
+    border-top: 2px solid #ddd;
+    padding-top: 15px;
+}
+p b {
+    color: #212121;
+    display: block;
+    margin-top: 10px;
+}
+p {
+    text-align: center;
+}
