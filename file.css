@@ -1,1 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f6;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    background-color: #2874f0;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+h2 {
+    color: #212121;
+    margin-top: 20px;
+}
+img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+/* Zoom Effect */
+img:hover {
+    transform: scale(1.1);
+}
+p:nth-of-type(1),
+p:nth-of-type(3),
+p:nth-of-type(5) {
+    font-size: 18px;
+    color: #b12704;
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+}
+h3 {
+    margin-top: 10px;
+}
+input[type="radio"] {
+    margin: 8px;
+}
 
+button {
+    display: block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #fb641b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ff9f00;
+}
+
+hr {
+    margin: 25px 0;
+}
+h2:last-of-type {
+    border-top: 2px solid #ccc;
+    padding-top: 15px;
+}
+
+p b {
+    color: #000;
+}
