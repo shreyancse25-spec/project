@@ -21,7 +21,7 @@ img {
     border-radius: 10px;
     transition: transform 0.3s;
 }
-/* Zoom Effect */
+
 img:hover {
     transform: scale(1.1);
 }
