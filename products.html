@@ -1,1 +1,154 @@
-
+<html>
+<head>
+  <title>Products - Sneaker Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</style>
+</head>
+<body>
+<h1 class="text-center">All Products</h1>
+<div id="products" class="container mt-4">
+  <div class="row g-4">
+<div class="col-md-4 product" data-color="black" data-size="8">
+      <div class="card h-100 position-relative">
+        <span class="badge bg-danger position-absolute top-0 start-0 m-2">-20%</span>
+        <img src="https://www.superkicks.in/cdn/shop/files/1_2d0f89f7-4be2-4912-8a61-0790b1836bbe.jpg?v=1706605629&width=600" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Nike Air Max</h5>
+          <p class="text-warning">★★★★☆</p>
+          <p class="text-danger fw-bold">₹4999</p>
+          <p>Color:</p>
+          <input type="radio" name="color1" id="black1">
+          <label for="black1">Black</label>
+          <input type="radio" name="color1" id="white1">
+          <label for="white1">White</label>
+          <p class="mt-2">Size:</p>
+          <input type="radio" name="size1" id="size7">
+          <label for="size7">7</label>
+        <input type="radio" name="size1" id="size8">
+        <label for="size8">8</label>
+        <input type="radio" name="size1" id="size9">
+        <label for="size9">9</label>
+          <br><br>
+ <button class="btn btn-warning" onclick="addToCart()" data-bs-toggle="modal" data-bs-target="#cartModal">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 product" data-color="white" data-size="7">
+      <div class="card h-100">
+        <img src="https://m.media-amazon.com/images/I/816gVkTE9ZL._AC_UY1000_.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Adidas Runner</h5>
+          <p class="text-danger fw-bold">₹3999</p>
+  <p class="mb-1">Color:</p>
+        <input type="radio" name="color1" id="black1">
+        <label for="black1">Black</label>
+<input type="radio" name="color1" id="white1">
+<label for="white1">White</label>
+  <p class="mt-2 mb-1">Size:</p>
+  <input type="radio" name="size1" id="size7">
+<label for="size7">7</label>
+<input type="radio" name="size1" id="size8">
+<label for="size8">8</label>
+<input type="radio" name="size1" id="size9">
+<label for="size9">9</label>
+  <br><br>
+          <button class="btn btn-warning" onclick="addToCart()" data-bs-toggle="modal" data-bs-target="#cartModal">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 product" data-color="red" data-size="9">
+      <div class="card h-100">
+        <img src="https://images-static.nykaa.com/media/catalog/product/f/4/f4bf23139749503_1.jpg?tr=w-500" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Puma Sports</h5>
+          <p class="text-danger fw-bold">₹2999</p> 
+  <p class="mb-1">Color:</p>
+  <input type="radio" name="color1" id="black1">
+  <label for="black1">Black</label>
+  <input type="radio" name="color1" id="white1">
+  <label for="white1">White</label>
+  <p class="mt-2 mb-1">Size:</p>
+  <input type="radio" name="size1" id="size7">
+  <label for="size7">7</label>
+  <input type="radio" name="size1" id="size8">
+  <label for="size8">8</label>
+  <input type="radio" name="size1" id="size9">
+  <label for="size9">9</label>
+  <br><br>
+          <button class="btn btn-warning" onclick="addToCart()" data-bs-toggle="modal" data-bs-target="#cartModal">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 product" data-color="black" data-size="7">
+      <div class="card h-100">
+        <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/0685694f0f754aacb4ad69cb9d636f0d_9366/ULTRABOOST_5_MERCEDES_AMG_PETRONAS_F1_TEAM_Shoes_Black_KJ3673_HM1.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Adidas UltraBoost</h5>
+          <p class="text-danger fw-bold">₹5999</p>
+  <p class="mb-1">Color:</p>
+<input type="radio" name="color1" id="black1">
+<label for="black1">Black</label>
+<input type="radio" name="color1" id="white1">
+<label for="white1">White</label>
+  <p class="mt-2 mb-1">Size:</p>
+<input type="radio" name="size1" id="size7">
+<label for="size7">7</label>
+<input type="radio" name="size1" id="size8">
+<label for="size8">8</label>
+<input type="radio" name="size1" id="size9">
+<label for="size9">9</label>
+  <br><br>
+          <button class="btn btn-warning" onclick="addToCart()" data-bs-toggle="modal" data-bs-target="#cartModal">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 product" data-color="white" data-size="9">
+      <div class="card h-100">
+        <img src="https://assets.ajio.com/medias/sys_master/root/20240104/URRb/6596c796afa4cf41f50320db/-473Wx593H-469566613-blue-MODEL.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Puma Runner X</h5>
+          <p class="text-danger fw-bold">₹3499</p>
+  <p class="mb-1">Color:</p>
+  <input type="radio" name="color1" id="black1">
+  <label for="black1">Black</label>
+  <input type="radio" name="color1" id="white1">
+  <label for="white1">White</label>
+  <p class="mt-2 mb-1">Size:</p>
+  <input type="radio" name="size1" id="size7">
+<label for="size7">7</label>
+<input type="radio" name="size1" id="size8">
+<label for="size8">8</label>
+<input type="radio" name="size1" id="size9">
+<label for="size9">9</label>
+  <br><br>
+          <button class="btn btn-warning" onclick="addToCart()" data-bs-toggle="modal" data-bs-target="#cartModal">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 product" data-color="red" data-size="8">
+      <div class="card h-100">
+        <img src="https://assets.ajio.com/medias/sys_master/root/20201209/yo6O/5fcfcb89aeb269d563338f62/-473Wx593H-460681786-blue-MODEL.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Nike ZoomX</h5>
+          <p class="text-danger fw-bold">₹6999</p>
+  <p class="mb-1">Color:</p>
+  <input type="radio" name="color1" id="black1">
+  <label for="black1">Black</label>
+  <input type="radio" name="color1" id="white1">
+  <label for="white1">White</label>
+  <p class="mt-2 mb-1">Size:</p>
+  <input type="radio" name="size1" id="size7">
+  <label for="size7">7</label>
+  <input type="radio" name="size1" id="size8">
+  <label for="size8">8</label>
+  <input type="radio" name="size1" id="size9">
+  <label for="size9">9</label>
+  <br><br>
+          <button class="btn btn-warning" onclick="addToCart()" data-bs-toggle="modal" data-bs-target="#cartModal">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
